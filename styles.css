@@ -3,12 +3,12 @@ html {box-sizing: border-box;}
 
 ul {
 	display: flex;
+	padding-left:0;
 }
 
 .octocat {
-	width: 430px;
 	float: left;
-	padding: 0 10px 0 10px;
+	
 }
 
 li.octocat > a > img {
@@ -20,7 +20,7 @@ li.octocat > a > img {
 
 li.octocat {
 	border-bottom: 1px solid #cccccc;
-	margin: 20px;
+	margin: 15px;
 }
 
 div.image-footer > a > img {
@@ -29,30 +29,39 @@ div.image-footer > a > img {
 ul.authors > li > a > img {
 	height: 30px;
 	width: 30px;
+	margin-left: 10px;
+	border-radius: 5px
+
 }
 
 .image-footer {
-	display:flex;
-	justify-content:space-between;
+	display: flex;
+	justify-content: space-between;
+	width:440px;
 }
 
 .image-caption, .authors li {
 	display:flex;
 	flex-direction:row;
+	margin-right: 0px;
+
 }
 
-a {
-	font-family: Helvetica;
-	color: #000;
-	font-weight: bold;
-	text-decoration: none;
-}
 
 div.image-caption > span {
 	font-family: Helvetica;
 	color: #bbbbbb;
 	font-weight: bold;
+	margin-top: 5px;
 
+}
+
+div.image-caption > span + a {
+	font-family: Helvetica;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 5px 5px 0px 5px;
 }
 
 li {
@@ -64,7 +73,7 @@ span.image-number {
 	font-family: Helvetica;
 	color: #cccccc;
 	float: left;
-	margin: 15px 175px 0px 0px;
+	margin: 5px 120px 0px 0px;
 
 }
 
