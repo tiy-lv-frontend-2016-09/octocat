@@ -1,0 +1,53 @@
+html {box-sizing: border-box;}
+*, *:after, *:before {box-sizing:inherit}
+
+li.octocat > a > img {
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	height: 430px;
+	width: 430px;
+}
+
+ul.authors > li > a > img {
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+}
+
+a {
+	font-family: Helvetica;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+div.image-caption > span {
+	font-family: Helvetica;
+	color: #bbbbbb;
+	font-weight: bold;
+
+}
+
+li {
+	list-style-type: none;
+}
+
+span.image-number {
+	font-weight: bold;
+	font-family: Helvetica;
+	color: #cccccc;
+	float: left;
+	margin: 15px 250px 0px 0px;
+
+}
+
+span.image-number:before {
+	content: "#";
+	
+}
+
+div.image-footer {
+	clear: both;
+
+}
+
